@@ -389,7 +389,7 @@ public class DTCalendarView: UIView {
         weekdayLabels = labels
     }
     
-    fileprivate func reloadVisibleCells() {
+    public func reloadVisibleCells() {
         /// Disable implicit layer animations
         CATransaction.begin()
         CATransaction.setDisableActions(true)
